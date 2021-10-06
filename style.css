@@ -1,0 +1,48 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    margin-bottom: 100px;
+}
+.navbar{
+    padding: 1% 10%;
+}
+
+.nav-link{
+    
+    margin: 10px;
+    border-radius: 2px;
+    transition: .4s;
+}
+.nav-link:hover{
+    background-color: #fceae8;
+    border-radius: 4px;
+  
+    
+}
+.orang{
+    background-color: #fceae8;
+    border-radius: 10px;
+
+}
+
+.carousel-item{
+    padding: 20px 40px;
+}
+.price{
+    color: #FF136F;
+}
+
+.buy-now{
+    background-image:linear-gradient(to bottom, #FF589B 0%, #FF136f 100% );
+    color : #fff;
+    border:none;
+    border-radius: 8px;
+    padding: 9px 25px;
+    cursor: pointer;
+}
+
+p{
+    color: gray;
+}
