@@ -3,7 +3,7 @@ body{
 }
 
 .container{
-    margin-bottom: 100px;
+    margin-bottom: 70px;
 }
 .navbar{
     padding: 1% 10%;
@@ -16,7 +16,7 @@ body{
     transition: .4s;
 }
 .nav-link:hover{
-    background-color: #fceae8;
+    background-color: #c8b0ad;
     border-radius: 4px;
   
     
@@ -29,6 +29,7 @@ body{
 
 .carousel-item{
     padding: 20px 40px;
+   
 }
 .price{
     color: #FF136F;
@@ -45,4 +46,56 @@ body{
 
 p{
     color: gray;
+}
+
+
+#news{
+    padding: 5% 10%;
+    background-color: rgb(230, 225, 225) ;
+}
+
+.features-col{
+    border: 2px solid #79414f;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 20px 0;
+    transition: .4s;
+
+}
+
+.features-col:hover{
+    transform: scale(1.1);
+    box-shadow: 2px 6px 5px black ;
+}
+
+.icon-style{
+    background: #c8b0ad;
+    color: #FF136F;
+    padding: 15px;
+    margin: 5px 0;
+}
+
+.card{
+    border: none;
+    box-shadow: 5px 5px 10px;
+}
+
+.hovr{
+    padding: 15px;
+    margin: 20px 0;
+    transition: .4s;
+
+}
+
+.hovr:hover{
+    transform: scale(1.1);
+   
+}
+
+.styl{
+    border: 2px solid orange;
+    background-color:rgba(0, 0, 0, 0.829) ;
+    margin-bottom: -60px;
+    
+  
 }
